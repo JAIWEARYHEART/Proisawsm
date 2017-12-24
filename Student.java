@@ -1,6 +1,6 @@
 class Student
 {
-      int rollno,marks, id;
+      int rollno,marks, id,libraryId;
       void rollno(int rollno)
       {
         this.rollno=rollno;
@@ -13,13 +13,18 @@ class Student
       {
         this.id=id;
       }
+      void library(int libraryId)
+      {
+          this.libraryId;
+      }     
    public static void main(String s[])
    {
      Student st;
      st=new Student();
      st.rollno(110);
      st.marks(50);
-     st.id(100)    
+     st.id(100);
+     st.libraryId(142);   
    }
 
 }
